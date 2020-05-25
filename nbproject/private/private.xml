@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/controllers/HouseCRUD.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/models/Landlord.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/models/User.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/UI/SignUp.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/models/Tenant.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/models/RoomImage.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/UI/PropertyUI.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/BestHouseRental.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/UI/AddProperty.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/UI/Login.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/hibernate/AccessHibernate.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/Main.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/hibernate/hibernate.cfg.xml</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/nbproject/build-impl.xml</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/hibernate.cfg.xml</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/models/UserAUth.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/models/House.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/controllers/TenantCRUD.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/NewHibernateUtil.java</file>
+            <file>file:/home/esther/NetBeansProjects/BestHouseRental/src/besthouserental/controllers/LandLordCRUD.java</file>
+        </group>
+    </open-files>
+</project-private>
