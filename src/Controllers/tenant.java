@@ -14,7 +14,7 @@ import org.hibernate.Transaction;
  */
 public class tenant {
     
-    public void CreateTenant (Models.Tenant tenant){
+    public static void CreateTenant (Models.Tenant tenant){
         Session session = util.connect.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
         

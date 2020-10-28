@@ -14,7 +14,7 @@ import org.hibernate.Transaction;
  */
 public class reservation {
     
-    public void createReservation(Models.Reservation reservation){
+    public static void createReservation(Models.Reservation reservation){
         
         Session session = util.connect.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
