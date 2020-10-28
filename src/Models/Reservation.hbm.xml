@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 28, 2020 1:56:34 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Models.Reservation" table="reservation" schema="public" optimistic-lock="version">
+        <id name="reservationId" type="int">
+            <column name="reservation_id" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="property" class="Models.Property" fetch="select">
+            <column name="property_id" />
+        </many-to-one>
+        <many-to-one name="tenant" class="Models.Tenant" fetch="select">
+            <column name="tenant_id" />
+        </many-to-one>
+        <property name="beginDate" type="date">
+            <column name="begin_date" length="13" />
+        </property>
+        <property name="endDate" type="date">
+            <column name="end_date" length="13" />
+        </property>
+    </class>
+</hibernate-mapping>
