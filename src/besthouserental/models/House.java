@@ -14,15 +14,40 @@ public class House {
     private String amenities;
     private int rentAmount;
     private int totalArea;
+    private String status;
+    @ManyToOne
+    private Landlord landlord;
 
-    public House(List<RoomImage> pictures, String location, int numberOfRooms, String amenities, int rentAmount, int totalArea) {
+    public Landlord getLandlord() {
+        return landlord;
+    }
+
+    public void setLandlord(Landlord landlord) {
+        this.landlord = landlord;
+    }
+    public House(){
+        
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public House(List<RoomImage> pictures, String location, int numberOfRooms, String amenities, int rentAmount, int totalArea, String status,Landlord landlord) {
         this.pictures = pictures;
         this.location = location;
         this.numberOfRooms = numberOfRooms;
         this.amenities = amenities;
         this.rentAmount = rentAmount;
         this.totalArea = totalArea;
+        this.status = status;
+        this.landlord=landlord;
     }
+
 
   
     public int getTotalArea() {

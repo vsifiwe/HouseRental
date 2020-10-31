@@ -1,8 +1,13 @@
 package besthouserental.models;
 
-public class Tenant extends User{
-    public Tenant(int userId, String firstName, String lastName, String email){
-        super(userId,  firstName, lastName, email);
+public class Tenant extends UserAUth{
+
+    public Tenant() {
     }
+
+    public Tenant(String firstName, String lastName, String email, String password) {
+        super(firstName, lastName, email, password);
+    }
+   
 
 }
