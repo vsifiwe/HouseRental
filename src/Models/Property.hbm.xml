@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 28, 2020 1:56:34 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Models.Property" table="property" schema="public" optimistic-lock="version">
+        <id name="propertyId" type="int">
+            <column name="property_id" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="owner" class="Models.Owner" fetch="select">
+            <column name="owner_id" />
+        </many-to-one>
+        <property name="district" type="string">
+            <column name="district" />
+        </property>
+        <property name="price" type="java.lang.Integer">
+            <column name="price" />
+        </property>
+        <property name="available" type="java.lang.Boolean">
+            <column name="available" />
+        </property>
+        <property name="pictures" type="serializable">
+            <column name="pictures" />
+        </property>
+        <set name="reservations" table="reservation" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="property_id" />
+            </key>
+            <one-to-many class="Models.Reservation" />
+        </set>
+    </class>
+</hibernate-mapping>
